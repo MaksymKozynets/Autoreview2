@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <nav>
+             <form action="index.html">
+            <button>На головну</button>
+        </form>
+        </nav>
+        <h1>Заповніть будь ласка форму</h1>
+    </header>
+    <main>
+         <form action="https://formspree.io/xjvanzgj" method="post">
+            <p>Якому типу кузова Ви надаєте перевагу?</p>
+                <label>
+                    <input type="radio" name="vechical" value="sedan">Sedan
+                </label>
+                <label>
+                    <input type="radio" name="vechical" value="hatchback">Hatchback
+                </label>
+                <label>
+                    <input type="radio" name="vechical" value="universal">Universal
+                </label><br>
+                <label>
+                    <input type="radio" name="vechical" value="crossover">Crossover
+                </label>
+                <label>
+                    <input type="radio" name="vechical" value="pickup">Pickup
+                </label>
+                <label>
+                    <input type="radio" name="vechical">SUV
+                </label><br>  
+            <p>Кількість пасажирів?</p> 
+                <label>
+                    <input type="radio" name="seats" value="2">2
+                </label>
+                <label>
+                    <input type="radio" name="seats" value="5">5
+                </label><br> 
+                <label>
+                    <input type="radio" name="seats" value="4">4
+                </label>
+                <label>
+                    <input type="radio" name="seats" value="7">7
+                </label><br>
+            <p>Додаткові опції</p> 
+                <label for="climate-control">
+                    <input id="climate-control" type="checkbox" name="option" value="climat control">Climate control
+                </label> 
+                <label for="a/c">
+                    <input id="a/c" type="checkbox" name="option" value="a/c">A/C
+                </label>  
+                <label for="digital-cockpit">
+                    <input id="digital-cockpit" type="checkbox" name="option" value="digital cockpit">Digital cockpit
+                </label><br>
+                <label for="bluetooth">
+                    <input id="bluetooth" type="checkbox" name="option" value="bluetooth">Bluetooth
+                </label> 
+                <label for="navigation-system">
+                    <input id="navigation-system" type="checkbox" name="option" value="navigation system">Navigation system
+                </label>  
+                <label for="apple-CarPlay">
+                    <input id="apple-CarPlay" type="checkbox" name="option" value="apple CarPlay">Apple CarPlay
+                </label><br> 
+                <label>User Name:
+                    <input type="text" placeholder="User Name" name="user name" required>
+                </label><br> 
+                <label>User Phone Number:
+                    <input type="text" placeholder="User Phone Number" name="user phone number" required>
+                </label><br>   
+                <label>User Email:
+                    <input type="email" placeholder="User Email" name="user email" required>
+                </label><br>
+                Стать
+                <label>
+                    <input type="radio" name="gender" value="male">Male
+                </label> 
+                <label>
+                    <input type="radio" name="gender" value="female">Female
+                </label>  
+                <label>
+                    <input type="radio" name="gender" value="other">Other
+                </label><br>     
+                <label>
+                    <input type="submit">
+                </label>        
+         </form>
+    </main>    
+</body>
+</html>
